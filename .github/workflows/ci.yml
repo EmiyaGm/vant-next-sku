@@ -29,8 +29,8 @@ jobs:
 
       - name: git config
         run: |
-          git config user.name "edram"
-          git config user.email "edram@qq.com"
+          git config user.name "emiyagm"
+          git config user.email "464723943@qq.com"
 
       - run: yarn
 
@@ -38,4 +38,4 @@ jobs:
 
       - run: npm run release
         env:
-          GITHUB_TOKEN: ${{ secrets.EDRAM_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.EMIYAGM_GITHUB_TOKEN }}
